@@ -2,7 +2,7 @@
 
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. I've been contracted by the editors of a food magazine, _Eat Safe, Love_, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
-![Poster]()
+![Poster](https://github.com/mugsiemx/nosql-challenge/blob/main/Images/world%20food%20safety%20day.jpg)
 
 ### First Steps
 
@@ -27,7 +27,7 @@ Used `NoSQL_setup_starter.ipynb` for this section of the challenge.
 
 1. Imported the data provided in the `establishments.json` file from the Terminal using the code: mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json. Named the database `uk_food` and the collection `establishments`. Copied the import code used to import data from the Terminal to a markdown cell in the notebook.
 
-![Create Database Code]()
+![Create Database Code](https://github.com/mugsiemx/nosql-challenge/blob/main/Images/Import%20from%20GitBash%20Terminal.png)
 
 2. Within the notebook, imported the libraries required: PyMongo and Pretty Print (`pprint`).
 3. Created an instance of the Mongo Client.
